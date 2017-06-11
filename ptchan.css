@@ -1,0 +1,83 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("ptchan.net") {
+  
+      /*-----------------------------*/
+     /* START OF CSS FOR FRONT PAGE */
+    /*-----------------------------*/
+  
+  /* body background and text color */
+  body { background-color: #0c0c0c; background: #0c0c0c; color: #b2b2b2 !important; }
+
+  /* board list top bar */
+  .boardlist { background-color: #0c0c0c; }
+  .boardlist .sub a { color: #4285f4; }
+  .boardlist .sub a:hover { color: #2e5daa; }
+  .boardlist .sub { color: #b2b2b2; }
+  
+  /* header */
+  header div.subtitle, h1 { color: #006666; }
+  .board-links a { color: #4285f4; }
+  .board-links a:hover { color: #2e5daa; }
+  
+  /* notícias */
+  div.ban { border: none; background: #191919; background-color: #191919; }
+  div.ban h2 { background: black; background-color: black; color: #b2b2b2; }
+  div.ban p { color: #b2b2b2; }
+  div.ban a { color: #4285f4; }
+  div.ban a:hover { color: #2e5daa; }
+  div.ban .padded { color: #b2b2b2; }
+  li { color: #b2b2b2; }
+  hr { border-color: black; }
+  footer a:link { color: #4285f4; }
+  footer a:link:hover { color: #2e5daa; }
+  
+  /* imagens/post recentes e estatíticas */
+  div.ban.box { background-color: #191919; }
+  
+      /*---------------------------*/
+     /* END OF CSS FOR FRONT PAGE */
+    /*---------------------------*/
+  
+      /*-------------------------*/
+     /* START OF CSS FOR BOARDS */
+    /*-------------------------*/
+  
+  /* options */
+  #options_div, #alert_div { background-color: black; }
+  h2 { color:#006666; }
+  
+  /* board list */
+  .desktop-style div.boardlist:nth-child(1) { background-color: black; border: none; }
+   div.boardlist a { color: #4285f4; }
+  div.boardlist a:hover { color: #2e5daa; }
+  
+  /* form */
+  form table tr th { background: black; }
+  a:link { color: #4285f4; }
+  a:link:hover { color: #2e5daa; }
+  .intro span.name { color: #00b3b3; }
+  .intro span.capcode { color: #0059b3; }
+  div.post.reply { background-color: black; border: none; }
+  div.post.reply div.body a { color: #4285f4; }
+  div.post.reply.highlighted { background:#green; border: none !important; }
+  
+  /* post info */
+  .intro span.subject { color: #006666; }
+  .intro a.email span.name { color: #345456; }
+  .intro a.email span.name:hover { color: #00b3b3; }
+  
+  /* banner */
+  div.banner { background-color: #006666; border: none; }
+  
+  /* misc */
+  div.post.reply.highlighted { background: #191919; border: none; }
+  .poster_id:hover, .post_no:hover { color: #2e5daa !important; }
+  div.pages { background: black; border: none; }
+  div.pages a.selected { color: blue; }
+  
+      /*-----------------------*/
+     /* END OF CSS FOR BOARDS */
+    /*-----------------------*/
+  
+}
