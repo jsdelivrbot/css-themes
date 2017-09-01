@@ -105,6 +105,7 @@
   div.post div.postInfo span.nameBlock span.name { color: #00b3b3; }
   div.post div.postInfo span.subject { color: #006666; }
   div.post div.postInfo span a.replylink { color: #4285f4 !important; }
+  span.capcodeMod strong.capcode, .nameBlock.capcodeMod span.name { color: white !important; }
   
   /* post menu */
   .dd-menu li { background-color: black; }
@@ -121,10 +122,6 @@
   
   /* catalog filter */
   .panel { box-shadow: 0 0 5px grey; background-color: black; }
-  
-  /* spoiler */
-  s { background: #0c0c0c !important; color: #0c0c0c !important; }
-  s:hover { color: #b2b2b2 !important; }
   
   /* archive */
   #arc-list .quotelink { color: #4285f4 !important; }
@@ -151,6 +148,10 @@
   .highlightPost:not(.op) { background: #333333 !important; background-color: #333333 !important; border-color: #d69595 !important; }
   table.flashListing .name { color: #00b3b3; }
   table.flashListing .subject { color: #006666; }
+  
+ /* captcha */
+  #g-recaptcha { filter: invert(100%) hue-rotate(180deg) !important; }
+
   
       /*-----------------------*/
      /* END OF CSS FOR BOARDS */
