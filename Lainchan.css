@@ -1,0 +1,78 @@
+/* https://userstyles.org/styles/147488/dark-lainchan */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("lainchan.org") {
+  
+  /* body background and text color */
+  html { background-color: #0c0c0c; }
+  body { background-color: #0c0c0c; background: #0c0c0c; color: #b2b2b2; }
+  * { border: none; }
+  
+  /* links colors */
+  a:link { color: #4285f4 !important; }
+  a:link:hover { color: #2e5daa !important; }
+  
+  /* board list */
+  div.boardlist { color: #191919; background-color: black; }
+  .desktop-style div.boardlist:not(.bottom) { text-shadow: none; color: #191919; background-color: black; border-bottom: none !important; box-shadow: none !important; }
+  .bar.top { border-bottom: none; }
+  
+  /* banner */
+  img[src="static/lainchan_header_console.gif"] { background: url(https://s26.postimg.org/buy0fpjix/oie_31131910_Qm3nq2o6.gif) no-repeat !important; height: 0 !important; width: 0 !important; padding-left: 733px !important; padding-top: 109px !important; }  
+     
+  /* "Cyberpunk is duck" and "Latest news" */
+  div.ban h2 { background-color: black; color: #b2b2b2; }
+  
+  /* "Recent images" box and "Latest posts" box */
+  .box.left h2, .box.right h2 { background-color: black; color: #b2b2b2; }
+  .box.left, .box.right { background-color: #191919; color: #b2b2b2; }
+ 
+  /* make boxes look better */
+  .box.left { margin-bottom: 25px; }
+  .box.right:nth-child(2) { width: 45%; margin-right: 0px; }
+  .box.right { width: 26%; margin-right: 35px; }
+  
+  /* title */
+  h1 { color: #006666; }
+  
+  /* donate progess bar */
+  .progress-bar { background-color: #191919; box-shadow: none; }
+  .green span { background-color: #006666; background-image: -moz-linear-gradient(top, #006666, #006666); }
+  .glow span { box-shadow: 0 5px 5px #191919 inset, 0 -5px 5px #191919 inset; }
+  
+  /* start a new thread */
+  input[type="text"] { background-color: black; border: none; }
+  input[type="text"]:focus { border: none; }
+  form table tr th { background: black; color: #b2b2b2; bordeR: none; }
+  textarea { background-color: black; color: #b2b2b2; border: 1px solid #191919 !important; }
+  input[type="submit"] { background-color: black; }
+  input[type="submit"]:hover { background-color: #191919; color: #b2b2b2; }
+  select { background-color: black; border: none; }
+  
+  /* post style */
+  div.post.reply { background-color: black; border: none; margin: -4px; }
+  .intro span.name { color: #00b3b3; }
+  .intro span.subject { color: #006666; }
+  
+  /* bottom bar */
+  .bar.bottom { background-color: black; border-top: none; }
+  div.pages { background: black; }
+  
+  /* posting mode */
+  div.banner { background: #006666; }
+    
+  /* blotter */
+  div.blotter p { color: #00b3b3; }
+  
+  /* highlighted */
+  div.reply.post.highlighted { background-color: #191919; border: none !important; }
+  
+  /* options div */
+  #options_div { background: black; }
+  
+  /* hr */
+  hr { color: #63eaaf !important; background-color: #63eaaf !important; border: none; border-top: 1px solid black; }
+
+  
+}
