@@ -1,1 +1,162 @@
+/* https://userstyles.org/styles/147214/dark-reddit */
 
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("reddit.com") {
+  
+  /* body background and text color */
+  html { background-color: #0c0c0c; }
+  body { background-color: #0c0c0c; background: #0c0c0c; color: #b2b2b2; }
+  * { color: #b2b2b2 !important; }
+  
+  /* links colors */
+  a:link { color: #4285f4 !important; }
+  a:link:hover { color: #2e5daa !important; }
+  
+  /* general changes */
+  .expando-button { opacity: 0.3 !important; background-color: transparent !important; }
+  .thing .title { color: #b2b2b2 !important; }
+  .nextprev a { background: black; border: none; } 
+  .arrow { opacity: 0.3 !important; } /* mega propz to quodroc */
+  .md pre { border: 1px solid #191919; background-color: black; }
+  .gold-accent { background-color: black; border: solid 1px #191919; }
+  .private-feeds.instructions .feedlink { border: none; background: #0c0c0c none no-repeat scroll top left; }
+  .private-feeds.instructions .feedlink.json-link { background-color: #0c0c0c; }
+  .reddit-infobar { background-color: black; border-color: #191919; }
+  .friend-table table tbody tr:hover { background-color: #0c0c0c; }
+  .white-field { background-color: black; }
+  .sr-interest-bar { background: black url(https://www.redditstatic.com/snoo-upside-down.png) 15px top no-repeat; border: 1px solid #191919; }
+  .sr-interest-bar .bubble { background: #0c0c0c; }
+  .sr-interest-bar .subscribe { color: white !important; }
+  .sr-interest-bar .bubble::after { border-right-color: #0c0c0c; }
+  .searchpane { background: black url(https://www.cornellcollege.edu/assets/production/images/search.png) 26px center no-repeat; }
+  .linefield input[type="text"] { border: none; }
+  .md code { color: black !important; }
+  .subreddit .usertext .md { background-color: black; }
+  .fancy-toggle-button .add a { color: green !important; }
+  .tabmenu.formtab .selected a { background-color: black; }
+  .formtabs-content { border-top: 4px solid black; }
+  .tabmenu.formtab a { background-color: #0c0c0c; border: none; }
+  .c-btn-primary { background-color: black; border-bottom: 2px solid #191919; border-top: 1px solid #191919; border-right: 1px solid #191919; border-left: 1px solid #191919; }
+  .c-btn-primary:hover { background-color: #0c0c0c; border-bottom: 2px solid #191919; border-top: 1px solid #191919; border-right: 1px solid #191919; border-left: 1px solid #191919; }
+  .content.submit .info-notice { background-color: black; }
+  #newlink-with-image-upload .image-upload-drop-target { border: 2px dashed #191919; background-color: #0c0c0c; }
+  .read-next { background-color: black; border: 1px solid #191919; }
+  .read-next .read-next-header { background-color: #191919; border-bottom: 1px solid black; }
+  .read-next .read-next-button { background-color: black; }
+  .link .usertext-body .md { background-color: black; }
+  .sidecontentbox a.helplink:hover::after { background-color: black; }
+  .usertext.grayed .usertext-body { background-color: black; }
+  .comment .child { border-left: 1px dotted #191919; }
+  .side .md pre > code { color: #b2b2b2 !important; }
+  a[href$="/nsfw"] { background: #a00 !important; color: #a00 !important; }
+  .archived-infobar.with-icon::before { background-color: black; }
+  .linkinfo { background-color: black; }
+  .titlebox form.toggle { background: black none no-repeat scroll center left; }
+ .fancy-toggle-button .add { color: white !important; }
+  .fancy-toggle-button .remove { color: white !important; }
+  .cookie-infobar.with-icon::before { background-color: black; }
+  .infobar.newsletterbar { background-color: black; }
+  .titlebox > .subscribers .number { border: none; }
+  .hover-bubble { border: none; background-color: black; box-shadow: none; }
+  .hover-bubble.multi-selector .create-multi input[type="text"] { background: #191919; border: 1px solid #191919; }
+  .hover-bubble.multi-selector label:hover { background-color: black; }
+  .hover-bubble.multi-selector { background: black; }
+  div.sidebox.submit > .morelink:hover::before { background-color: black; color: #b2b2b2; border: none; }
+  .wiki-page .pageactions .wikiaction-current {  background-color: #191919; }
+  .icon-menu a { background: #0c0c0c none no-repeat scroll center left; }
+  .app-scope { background: black; border: 2px solid black; }
+  .wiki-page .wiki-page-content .wiki > .toc > ul ul { border: 1px dotted #191919; }
+  sitetable { background-color: black !important; }
+  
+  /* header */
+  #sr-header-area { background-color: black; border-bottom: none; }
+  .dropdown.srdrop .selected { color: #b2b2b2; }
+  #sr-more-link { background-color: black; }
+  .drop-choices { background-color: black; }
+  .drop-choices a.choice:hover { background-color: #0c0c0c !important;}
+  #header { background-color: #191919; }
+  .tabmenu li.selected a { background-color: black; border: 1px solid #5f99cf; border-bottom: 1px solid black; }
+  .tabmenu li a { background-color: black; }
+  #header-img { filter: invert(80%) hue-rotate(180deg) !important; } /* mega propz to quodroc */
+
+  /* side bar right */
+  #search input[type="text"] { border-radius: 2px; }
+  #searchexpando, .login-form-side,   .login-form-side input[type="text"], .login-form-side input[type="password"] { border-radius: 2px; }
+  header-bottom-left { background-color: black; }
+  .side { background-color: #0c0c0c; }
+  #header-bottom-right { background-color: black; }
+  .trending-subreddits strong { color: #4f8d4e; }
+  .infobar { background-color: black; border-color: #4285f4; }
+  .goldvertisement { border: none; box-shadow: none; color: #b2b2b2; }
+  .morelink { background: black; border: none; border-radius: 2px; }
+  .morelink:hover { background: #191919; } 
+  .goldvertisement .inner { border: 1px solid black; border-radius: 2px; }
+  .goldvertisement .progress p { color:	#d3a625; }
+  .goldvertisement .progress .bar span { background-image: linear-gradient(to bottom, #d3a625 0%, #d3a625 100%); }
+  .goldvertisement a { background: black; border: 1px solid #191919; }
+  .goldvertisement a:hover { background: #191919; }
+  .hover-bubble { background-color: #191919; color: #b2b2b2; }
+  .gold-bubble div.history .progress p { color: #d3a625; }
+  .gold-bubble div.history .progress .bar span { background-image: linear-gradient(to bottom, #d3a625 0%, #d3a625 100%); }
+  .morelink .nub { display: none; }
+  .infobar.onboardingbar { background: none; background-color: black; border-radius: 2px; }
+  .sidebox .spacer { background-color: black; border-radius: 2px; }
+  .infobar.profilebetabar { background: black; border: 1px solid #b2b2b2; border-radius: 2px; } 
+  .infobar.profilebetabar .profilebetabar-learnmore { background-color: #0c0c0c; }
+  .modal-content { background-color: black; }
+  .gold-bubble span.gold-branding { filter: invert(80%) hue-rotate(180deg) !important; }
+  .gold-bubble { background-color: black; }
+  
+  /* side bar left */
+  body.with-listing-chooser .listing-chooser .grippy { background: black; border-left: 1px solid #0c0c0c; box-shadow: none; }
+  body.with-listing-chooser.listing-chooser-collapsed .listing-chooser .grippy::after { border: none; }
+  body.with-listing-chooser .listing-chooser .grippy::after { border: none; }
+  body.with-listing-chooser.listing-chooser-collapsed .listing-chooser .grippy:hover::after { background-color: #191919; }
+  body.with-listing-chooser .listing-chooser .grippy:hover::before { background-color: black; }
+  .contents { background-color: black; }
+  .listing-chooser li.selected { background: #191919; border-color: black; box-shadow: none; }
+  .listing-chooser li { background: #0c0c0c; border: none; }
+  .listing-chooser .intro { background: #191919 !important; border: 1px solid black !important; }
+  body.with-listing-chooser .listing-chooser { background-color: black; }
+  .linkflairlabel { border: 1px solid black; color: black !important; }
+  
+  /* footer */
+  .footer { background: black; border: 1px solid #191919; }
+  
+  /* private message */
+  .roundfield { background-color: black; }
+  textarea { background-color: #0c0c0c; }
+  .roundfield textarea { border: none; }
+  .linefield textarea { border: none !important; }
+  
+  /* create your own subreddit */
+  .linefield { background-color: black; }
+  .linefield.mobile { background-color: black; border: none; }
+  
+  /* reddit gold */
+  .gold-wrap .gold-banner { filter: invert(80%) hue-rotate(180deg) !important; }
+  .fancy { background-color: black; border: 2px solid #191919; }
+  .gold-wrap a.tab-toggle { background-color: #0c0c0c; border-top: 1px solid #191919; border-bottom: 1px solid #191919; border-right: 1px solid #191919; }
+  .gold-wrap a.tab-toggle:first-of-type { border-left: 1px solid #191919; }
+  .gold-wrap a.tab-toggle:hover { background-color: #191919 !important; }
+  .fancy .fancy-inner { border: 1px solid #191919; }
+  .gold-wrap input[type="text"] { background-color: #0c0c0c; border: 1px solid #191919; }
+  .gold-button { background-color: #0c0c0c; }
+  .gold-button:hover { background-color: #191919; }
+  .gold-wrap .container { border: 1px solid #191919; background-color: #0c0c0c; }
+  
+  /* subreddit side bar */
+  .titlebox { background-color: black; border: 1px solid #191919; } 
+  .side .titlebox, .sidebox.create .morelink a, .side .sidecontentbox, .account-activity-box { background-color: black; }
+  #search input[type="text"] { background-color: black; }
+  #search #searchexpando { background-color: #191919; }
+    
+  /* flair */
+  .flair { background: black; }
+  .flairselector h2 { background-color: #191919; }
+  .flairselector .customizer input { background-color: #191919; border: 2px solid #0c0c0c; }
+  .flairselector li.selected { border: 2px dashed #191919; }
+  .flairselector li.selected:hover { background-color: #0c0c0c; }
+
+}
