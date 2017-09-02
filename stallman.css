@@ -1,0 +1,19 @@
+/* https://userstyles.org/styles/147162/dark-stallman */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("stallman.org") {
+
+  /* Are you curious about the CSS? 
+  I'm afraid it's only these lines... 
+  Stallman's website isn't that complex */
+
+  /* body background and text color */
+  html { background-color: #0c0c0c; }
+  body { background-color: #0c0c0c; background: #0c0c0c; color: #b2b2b2; }
+  
+  /* links colors */
+  a:link { color: #4285f4 !important; }
+  a:link:hover { color: #2e5daa !important; }
+  
+}
