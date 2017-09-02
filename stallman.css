@@ -16,4 +16,7 @@
   a:link { color: #4285f4 !important; }
   a:link:hover { color: #2e5daa !important; }
   
+  /* some random boxes */
+  .boxes li:nth-of-type(2n-1), .boxes li:nth-of-type(2n) { background-color: black; }
+  
 }
