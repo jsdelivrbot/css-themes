@@ -3,11 +3,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("4chan.org") {
-
-      /*-----------------------------*/
-     /* START OF CSS FOR FRONT PAGE */
-    /*-----------------------------*/
-  
+ 
   /* body background and text color */
   html { background-color: #0c0c0c; }
   body { background-color: #0c0c0c; background: #0c0c0c; color: #b2b2b2; }
@@ -74,7 +70,7 @@
   #fp-menu { background-color: black; }
   #fp-menu li:hover { background-color: #0c0c0c !important; }
   
-  /* footer */
+  /* front page footer */
   #ft ul { background-color: #0c0c0c; border: none; }
   #ft li { background-color: #191919; border: none; }
   #ft li a { color: #4285f4; }
@@ -127,9 +123,13 @@
   .dd-menu li:hover { background-color: #191919; }
   
   /* post style */
-  div.reply { background-color: black; border: none; }
+  div.reply { background-color: black; border: none !important; }
   .reply:target, .reply.highlight { background: #191919 !important; border: none !important; background-color: #191919; }
   a.replylink:not(:hover) { color: #4285f4 !important; }
+  
+  /* post style hover */
+  #quote-preview:not(.ws) { background-color: black !important; border: 1px solid #191919 !important; } /* big up to Babkock */
+  #post-preview { background-color: black !important; border: 1px solid !important; } /* big up to Babkock */
   
   /* start a new thread */
   table.postForm > tbody > tr > td:first-child { background-color: black; color: #b2b2b2; border: 1px solid #b2b2b2; }
