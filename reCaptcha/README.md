@@ -1,6 +1,6 @@
 # Dark_reCaptcha
 ![alt tag](https://s14.postimg.org/wexnixwo1/captcha2.png)
-
+ 
 Dark theme for reCaptcha for everyone who is sick of the old and same white.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-238b8b.svg)](https://rawgit.com/tkosamja/stylish-themes/master/reCaptcha/reCaptcha.user.css)
