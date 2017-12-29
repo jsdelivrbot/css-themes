@@ -1,3 +1,16 @@
+/* ==UserStyle==
+@name Dark_reCaptcha
+@namespace github.com/tkosamja/stylish-themes/tree/master/reCaptcha
+@homepageURL https://github.com/tkosamja/stylish-themes/tree/master/reCaptcha
+@version 1.0.0
+@updateURL https://rawgit.com/tkosamja/stylish-themes/master/reCaptcha/reCaptcha.user.css
+@description reCaptcha dark theme
+@author tkosamja
+@license MIT
+==/UserStyle== */
+ 
+/* https://userstyles.org/styles/153473/dark-recaptcha */
+
 /* i really want this to be global */
 
 @namespace url(http://www.w3.org/1999/xhtml);
