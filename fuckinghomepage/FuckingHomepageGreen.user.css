@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name Dark_FuckingHomepage
+@namespace github.com/tkosamja/stylish-themes/tree/master/fuckinghomepage
+@homepageURL https://github.com/tkosamja/stylish-themes/tree/master/fuckinghomepage
+@version 1.0.0
+@updateURL https://rawgit.com/tkosamja/stylish-themes/master/fuckinghomepage/FuckingHomepageGreen.user.css
+@description FuckingHomepage dark theme
+@author tkosamja
+@license MIT
+==/UserStyle== */
+
+/* https://userstyles.org/styles/147367/dark-homepage */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("fuckinghomepage.com") {
+
+  body { background-color: black; background-image: none; color: #b2b2b2; text-shadow: #191919 1px 1px 0px; }
+  a:link { color: #006666 !important; border-bottom: 1px solid #191919 !important; }
+  a:link:hover { color: #005151 !important; }
+  .Post a.Title { color: #006666; text-shadow: none; }
+  .Post a.Title:hover { text-decoration: none; }
+  .Post .PostBody small { color: #99c1c1; }
+  
+}
