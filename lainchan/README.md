@@ -11,4 +11,4 @@ Theme as a userstyle [here](https://userstyles.org/styles/147488/dark-lainchan)
 
 Thread example
 
-![alt tag](https://s14.postimg.org/w2auqnoe9/147488_after.png)
+![alt tag](https://postimg.org/image/ec965mat9/)
