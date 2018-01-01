@@ -179,3 +179,24 @@
       /*-----------------------*/
      /* END OF CSS FOR BOARDS */
     /*-----------------------*/
+
+ /* 4chan-x */
+:root.yotsuba-b .dialog { background-color: black; }
+#fourchanx-settings { box-shadow: 0 0 15px #0c0c0c; }
+:root.yotsuba-b .suboption-list > div:last-of-type { background-color: black; }
+#fourchanx-settings a { color: #4285f4 !important; }
+#fourchanx-settings a:hover { color: #2e5daa !important; }
+.field, textarea { background-color: #0c0c0c; color: #b2b2b2; }
+.field:hover { color: #b2b2b2 !important; }
+.notification.info, :root.yotsuba .suboption-list > div:last-of-type { background-color: black; }
+:root.yotsuba-b #header-bar.dialog { background: black; }
+:root.yotsuba-b .qr-link { background: black !important; }
+:root.yotsuba-b .qr-link:hover { background: #191919; }
+#file-n-submit > input, #qr select, :root.yotsuba #header-bar.dialog { background: black; }
+:root.yotsuba #header-bar { color: #b2b2b2; }
+:root.yotsuba .qr-link { background: black; }
+:root.yotsuba .qr-link:hover { background: #191919; }
+:root.yotsuba .dialog { background-color: black; }
+:root.yotsuba .dialog a { color: #4285f4; }
+:root.yotsuba .dialog a:hover { color: #2e5daa !important; }
+.qphl { outline: 2px solid #191919; }
