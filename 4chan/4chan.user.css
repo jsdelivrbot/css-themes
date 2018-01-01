@@ -57,7 +57,7 @@
   .boxbar { background: black; color: #b2b2b2; }
   .boxbar h2 { color: white; }
   .box-inner { background: #191919; }
-  .box-outer { border: none; margin-bottom: none; padding-bottom: 0px; }
+  .box-outer { border: none; padding-bottom: 0px; }
   
   /* boards box */
   .content h3 { background: black; border: none; color: #b2b2b2; font-size: 116%; padding: .5em; }
