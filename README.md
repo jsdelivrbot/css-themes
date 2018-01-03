@@ -1,2 +1,2 @@
 # stylish-themes
-Stylish themes I made for some websites.
+CSS themes I made for some websites.
