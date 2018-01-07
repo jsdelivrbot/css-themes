@@ -137,6 +137,8 @@
   div.reply { background-color: black; border: none !important; }
   .reply:target, .reply.highlight { background: #191919 !important; border: none !important; background-color: #191919; }
   a.replylink:not(:hover) { color: #4285f4 !important; }
+  s { color: #b2b2b2 !important; background-color: #b2b2b2 !important; }
+  s:hover { color: #fff !important; background-color: #000 !important; }
   
   /* post style hover */
   #quote-preview:not(.ws) { background-color: black !important; border: 1px solid #191919 !important; } /* big up to Babkock */
