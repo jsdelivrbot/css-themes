@@ -14,7 +14,7 @@
 /* i really want this to be global */
 
 @namespace url(http://www.w3.org/1999/xhtml);
-#g-recaptcha, #qrCaptchaContainer { filter: invert(100%) hue-rotate(180deg) !important; }
+#g-recaptcha, #qrCaptchaContainer { filter: invert(100%) grayscale(100%) !important; }
 
 @-moz-document url-prefix("https://www.google.com/recaptcha/api2/") { 
   
